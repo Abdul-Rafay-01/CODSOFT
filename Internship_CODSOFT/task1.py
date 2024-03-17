@@ -31,7 +31,7 @@ def update_task():
     if tasks:
         task_index = int(input("Enter Task Number To Update: ")) -1
         if 0 <= task_index < len(tasks):
-            new_task_name = input("Kindly Enter The New Task ")
+            new_task_name = input("Kindly Enter The New Task: ")
             tasks[task_index] = new_task_name
             print("Task Updated Successfully.")
         else:
